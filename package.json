@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/safira1344/api-nodejs/issues"
   },
-  "homepage": "https://github.com/safira1344/api-nodejs#readme"
+  "homepage": "https://github.com/safira1344/api-nodejs#readme",
+  "devDependencies": {
+    "typescript": "^7.0.2"
+  }
 }
