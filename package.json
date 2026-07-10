@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "tsx watch src/server.ts"
   },
   "repository": {
     "type": "git",
@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/safira1344/api-nodejs#readme",
   "devDependencies": {
+    "@types/node": "^26.1.1",
     "typescript": "^7.0.2"
   },
   "dependencies": {
