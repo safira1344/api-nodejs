@@ -1,0 +1,11 @@
+import prismaClient from "../generated/prisma/index.js";
+
+class CreateCustomerService{
+    async execute() {
+        console.log("Rota foi chamada!");
+
+        return { ok: true }
+    }
+}
+
+export { CreateCustomerService }
