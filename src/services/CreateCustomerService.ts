@@ -1,4 +1,4 @@
-import prismaClient from "../generated/prisma/index.js";
+import prismaClient from "../index.js";
 
 class CreateCustomerService{
     async execute() {
