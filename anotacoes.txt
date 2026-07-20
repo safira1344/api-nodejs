@@ -1,1 +1,0 @@
-Confirmado: o Prisma Studio simplesmente não dá suporte a bancos MongoDB, seja usando mongodb:// ou mongodb+srv://, tanto para instâncias locais quanto para serviços como o MongoDB Atlas. Ou seja, não é um bug do seu projeto nem algo que você configurou errado — é uma limitação atual da própria ferramenta Prisma Studio.
