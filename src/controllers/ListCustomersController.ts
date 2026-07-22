@@ -8,6 +8,8 @@ class ListCustomersController {
         const listCustomerService = new ListCustomersService();
 
         const customers = await listCustomerService.execute();
+
+        reply.send(customers);
     }
 }
 
