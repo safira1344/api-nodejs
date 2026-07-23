@@ -1,3 +1,4 @@
+import { error } from "console";
 import prismaClient from "../index.js";
 
 interface CreateCustomerProps {
