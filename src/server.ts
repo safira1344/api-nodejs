@@ -5,6 +5,10 @@ import cors from '@fastify/cors';
 
 const app = Fastify({ logger: true })
 
+app.setErrorHandler((Error, request, reply) => {
+    reply.code(400).send({message: Error.message})
+})
+
 const start = async () => {
 
     await app.register(cors);
