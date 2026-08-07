@@ -10,7 +10,15 @@ export default function App() {
                     <input 
                     type="text"
                     placeholder="Digite seu nome completo..."
-                    className="w-full mb-5 p-2"/>
+                    className="w-full mb-5 p-2 rounded"
+                    />
+
+                    <label className="font-medium text-white">Email:</label>
+                    <input 
+                    type="email"
+                    placeholder="Digite seu email..."
+                    className="w-full mb-5 p-2 rounded"
+                    />
                 </form>
             </main>
         </div>
