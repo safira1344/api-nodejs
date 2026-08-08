@@ -19,6 +19,12 @@ export default function App() {
                     placeholder="Digite seu email..."
                     className="w-full mb-5 p-2 rounded"
                     />
+
+                    <input 
+                    type="submit"
+                    value="Cadastrar"
+                    className="cursor-pointer w-full p-2 bg-green-500">
+                    </input>
                 </form>
             </main>
         </div>
