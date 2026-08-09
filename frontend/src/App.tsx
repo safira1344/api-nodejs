@@ -23,9 +23,15 @@ export default function App() {
                     <input 
                     type="submit"
                     value="Cadastrar"
-                    className="cursor-pointer w-full p-2 bg-green-500">
+                    className="cursor-pointer w-full p-2 bg-green-500 rounded font-medium">
                     </input>
                 </form>
+
+                <section className="flex flex-col">
+                    <article>
+                        <p><span>Nome:</span> Fernanda</p>
+                    </article>
+                </section>
             </main>
         </div>
     )
