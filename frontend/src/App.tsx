@@ -28,11 +28,18 @@ export default function App() {
                 </form>
 
                 <section className="flex flex-col">
+
                     <article className="w-full bg-white rounded p-2">
                         <p><span className="font-medium">Nome:</span> Fernanda</p>
                         <p><span className="font-medium">Email:</span> teste@teste.com</p>
                         <p><span className="font-medium">Status:</span> ATIVO</p>
+
+                        <button>
+
+                        </button>
+                        
                     </article>
+                    
                 </section>
             </main>
         </div>
