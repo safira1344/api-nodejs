@@ -1,3 +1,7 @@
+import { useEffect, useState } from "react";
+import { FiTrash } from "react-icons/fi";
+import { api } from "./services/api";
+
 export default function App() {
 
     return (
@@ -10,14 +14,14 @@ export default function App() {
                     <input 
                     type="text"
                     placeholder="Digite seu nome completo..."
-                    className="w-full mb-5 p-2 rounded"
+                    className="w-full mb-5 p-2 rounded bg-white"
                     />
 
                     <label className="font-medium text-white">Email:</label>
                     <input 
                     type="email"
                     placeholder="Digite seu email..."
-                    className="w-full mb-5 p-2 rounded"
+                    className="w-full mb-5 p-2 rounded bg-white"
                     />
 
                     <input 
@@ -29,15 +33,16 @@ export default function App() {
 
                 <section className="flex flex-col">
 
-                    <article className="w-full bg-white rounded p-2">
+                    <article className="w-full bg-white rounded p-2 relative hover:scale-105 duration-200">
+
                         <p><span className="font-medium">Nome:</span> Fernanda</p>
                         <p><span className="font-medium">Email:</span> teste@teste.com</p>
                         <p><span className="font-medium">Status:</span> ATIVO</p>
 
-                        <button>
-
+                        <button className="bg-red-500 w-7 h-7 flex items-center justify-center rounded-lg absolute right-0 -top-2">
+                            <FiTrash size={18} color="#FFF"/>
                         </button>
-                        
+
                     </article>
                     
                 </section>
