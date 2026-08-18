@@ -4,6 +4,16 @@ import { api } from "./services/api";
 
 export default function App() {
 
+    async function loadCustomers() {
+        const response = await api.get("/customers")
+        console.log(response);
+    }
+    
+    useEffect(() => {
+        loadCustomers();
+    }, [])
+
+
     return (
         <div className='w-full min-h-screen bg-gray-900 flex justify-center px-4'>
             <main className="my-10 w-full md:max-w-2xl">
